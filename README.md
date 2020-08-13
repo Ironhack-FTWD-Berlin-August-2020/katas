@@ -1,0 +1,1 @@
+## 🥋 All the Katas from codewars
