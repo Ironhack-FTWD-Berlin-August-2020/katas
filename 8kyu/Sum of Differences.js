@@ -28,7 +28,7 @@ const sumOfDifferences = (arr) => {
     return sorted[0] - sorted[sorted.length - 1]
 }
 
-// same solution but with Math.max() and Math.min() and in one line
+// same solution but with Math.max() and Math.min()
 function sumOfDifferences(arr) {
     if (!arr.length > 0) return 0;
     return Math.max(...arr) - Math.min(...arr)
